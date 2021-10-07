@@ -38,7 +38,7 @@ func main() {
 	)
 
 	// The Azure Data Explorer (a.k.a. ADX) selection must be configured
-	// with “user impersonation” permissions. TODO(pascaldekloe): document.
+	// with “user impersonation” permissions. See README.md for details.
 	const (
 		ClusterURL   = "https://obopocdata.westeurope.kusto.windows.net"
 		DatabaseName = "obopocdb"
